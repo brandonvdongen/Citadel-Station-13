@@ -29,7 +29,6 @@
 	name = "Veteran Roboticist"
 	jobtype = /datum/job/veteran_roboticist
 
-	l_pocket = /obj/item/pda/roboticist
 	ears = /obj/item/radio/headset/headset_sci
 	uniform = /obj/item/clothing/under/rank/rnd/roboticist
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -39,7 +38,7 @@
 	satchel = /obj/item/storage/backpack/satchel/tox
 
 
-	pda_slot = SLOT_L_STORE
+	pda_slot = /obj/item/pda/roboticist
 
 
 /datum/job/veteran_roboticist/after_spawn(mob/living/carbon/human/H, mob/M) //Instead of going through the process of adding spawnpoints
