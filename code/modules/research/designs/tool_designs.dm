@@ -274,3 +274,13 @@
 	build_path = /obj/item/scalpel/advanced
 	category = list("Tool Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/autosurgeon
+	name = "Autosurgeon"
+	desc = "An advanced device capable of automatically installing augments and implants. Limited uses."
+	id = "autosurgeon"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4500, /datum/material/glass = 4500, /datum/material/silver = 11500, /datum/material/gold = 9000, /datum/material/diamond = 3500)
+	build_path = /obj/item/autosurgeon/crafted
+	category = list("Tool Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE

@@ -147,3 +147,7 @@
 	desc = "A single use autosurgeon that contains a womb. A screwdriver can be used to remove it, but implants can't be placed back in."
 	uses = 1
 	starting_organ = /obj/item/organ/genital/womb
+
+/obj/item/autosurgeon/crafted
+	desc = "A device that automatically inserts an implant or organ into the user without the hassle of extensive surgery. It has a slot to insert implants/organs and a screwdriver slot for removing accidentally added items. Has limited uses."
+	uses = 5
