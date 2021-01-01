@@ -190,6 +190,11 @@
 	icon_state = "pda-roboticist"
 	default_cartridge = /obj/item/cartridge/roboticist
 
+/obj/item/pda/veteranroboticist
+	name = "veteran roboticist PDA"
+	icon_state = "pda-roboticist"
+	default_cartridge = /obj/item/cartridge/roboticist
+
 /obj/item/pda/curator
 	name = "curator PDA"
 	icon_state = "pda-library"

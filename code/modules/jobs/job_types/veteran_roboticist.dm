@@ -37,8 +37,8 @@
 	backpack = /obj/item/storage/backpack/science
 	satchel = /obj/item/storage/backpack/satchel/tox
 
-
-	pda_slot = /obj/item/pda/roboticist
+	l_pocket = /obj/item/pda/veteranroboticist
+	pda_slot = SLOT_L_STORE
 
 
 /datum/job/veteran_roboticist/after_spawn(mob/living/carbon/human/H, mob/M) //Instead of going through the process of adding spawnpoints
