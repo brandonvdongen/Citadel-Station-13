@@ -3579,6 +3579,7 @@
 #include "code\modules\vore\eating\vorepanel.dm"
 #include "code\modules\VR\vr_mob.dm"
 #include "code\modules\VR\vr_sleeper.dm"
+#include "code\modules\world_save\map_storage.dm"
 #include "code\modules\zombie\items.dm"
 #include "code\modules\zombie\organs.dm"
 #include "interface\interface.dm"
