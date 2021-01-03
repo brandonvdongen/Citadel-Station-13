@@ -74,6 +74,7 @@
 
 	add_verb(src, /mob/living/proc/lay_down) //CITADEL EDIT gimmie rest verb kthx
 	add_verb(src, /mob/living/silicon/robot/proc/rest_style)
+	add_verb(src, /mob/living/silicon/robot/proc/self_reset)
 
 //If there's an MMI in the robot, have it ejected when the mob goes away. --NEO
 /mob/living/silicon/robot/Destroy()
@@ -1159,6 +1160,12 @@
 		if("Belly up")
 			bellyup = 1
 	update_icons()
+
+/mob/living/silicon/robot/proc/self_reset()
+	set name = "Reconfigure Module"
+	set category = "Robot Commands"
+	set desc = "Manually reset your configuration."
+	ResetModule();
 
 /mob/living/silicon/robot/verb/viewmanifest()
 	set category = "Robot Commands"
