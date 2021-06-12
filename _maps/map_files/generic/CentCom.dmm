@@ -7676,7 +7676,7 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Commander's Office APC";
-	pixel_x = 26
+	pixel_x = 24
 	},
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/metal/fifty,
@@ -10524,6 +10524,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"yl" = (
+/obj/machinery/gear_painter,
+/turf/open/indestructible/hotelwood,
+/area/centcom/holding)
 "yn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum,
@@ -11604,7 +11608,7 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Briefing Area APC";
-	pixel_x = 26
+	pixel_x = 24
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -16325,7 +16329,7 @@
 /obj/docking_port/stationary{
 	dwidth = 1;
 	height = 4;
-	id = "pod4_away";
+	id = "pod_4_away";
 	name = "recovery ship";
 	width = 3
 	},
@@ -16335,7 +16339,7 @@
 /obj/docking_port/stationary{
 	dwidth = 1;
 	height = 4;
-	id = "pod3_away";
+	id = "pod_3_away";
 	name = "recovery ship";
 	width = 3
 	},
@@ -16485,7 +16489,7 @@
 	dir = 4;
 	dwidth = 1;
 	height = 4;
-	id = "pod2_away";
+	id = "pod_2_away";
 	name = "recovery ship";
 	width = 3
 	},
@@ -43992,7 +43996,7 @@ NS
 Nd
 ZL
 NS
-NS
+yl
 Nd
 CU
 NS
